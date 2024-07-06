@@ -26,4 +26,4 @@ if __name__ == "__main__":
             'maxresults': 26000 #for PL 1000 is sufficient, 25000 for DE is ok
             }
     data = fetch_data(api_url, params)
-    save_data(data, "../data/raw/raw_data.json") #.. means "go up one directory"
+    save_data(data, "../../data/raw/raw_data.json") #'..' means "go up one directory"
